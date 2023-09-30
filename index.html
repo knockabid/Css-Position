@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter:wght@400;600;700;800&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding: 0%;
+        margin: 0;
+        font-family: "Cabin", sans-serif;
+        font-family: "Inter", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: inter;
+      }
+
+      .parent {
+        width: 80%;
+        background-color: red;
+        padding: 50px;
+        box-sizing: border-box;
+        position: relative;
+      }
+      .child {
+        background-color: antiquewhite;
+        padding: 20px;
+        margin: 5px;
+      }
+      .child1 {
+        position: sticky;
+        top: -10px;
+        right: -10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Example of Position Static</h3>
+    <div class="parent">
+      I am parent
+      <div class="child child1">We are child</div>
+      <div class="child child2">We are child</div>
+      <div class="child child3">We are child</div>
+    </div>
+    
+  </body>
+</html>
